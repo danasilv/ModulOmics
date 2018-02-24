@@ -5,7 +5,7 @@ ModulOmics is a method to identify cancer driver pathways de novo by integrating
 
 ## Installation
 ModulOmics is available as ```R``` code. It has been tested on Mac and Linux, on R 3.4.3. It needs an active ```cplex``` (IBM CPLEX Optimizer) instance installed, and depends on the following R packages:
-* ```TiMEx```, current version downloadable from [its github repository](https://githhub.com/csimona/TiMEx)
+* ```TiMEx```, current version downloadable from [its github repository](https://github.com/csimona/TiMEx/)
 * ```igraph``` v. 1.1.2
 * ```cplexAPI``` v. 1.3.3
 * ```gtools``` v. 3.5.0

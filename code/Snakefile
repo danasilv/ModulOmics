@@ -1,0 +1,15 @@
+rule:
+    input:
+        "SlimInput/mut.txt",
+        "SlimInput/zScore.txt",
+        "SlimInput/PPI_SP.txt",
+        "SlimInput/TRRUST.txt",
+        "code/",
+        "output/"
+    output:
+        "output/ModulOmics2.txt",
+        "output/ModulOmics3.txt",
+        "output/ModulOmics4.txt",
+        "output/ModulOmics5.txt"
+    script:
+        "code/runModulOmics.R"

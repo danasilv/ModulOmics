@@ -10,9 +10,9 @@ ModulOmics is available as ```R``` code. It has been tested on Mac and Linux, on
 * ```cplexAPI``` v. 1.3.3
 * ```gtools``` v. 3.5.0
 
-## Installation via snakefile
-To install via snakefile please download the code directory to your computer, and run using "snakemake".
-The software requires an active ```cplex``` (IBM CPLEX Optimizer) instance installed, and the snakefile requires requires Python 3.5+ with snakemake installed (https://snakemake.readthedocs.io/en/stable/getting_started/installation.html)
+## Running via snakefile
+To install and run via snakefile please download the directory to your computer, and run using "snakemake".
+The software requires an active ```cplex``` (IBM CPLEX Optimizer) instance installed, and the snakefile requires requires Python 3.5+ with snakemake installed (https://snakemake.readthedocs.io/en/stable/getting_started/installation.html). This will both install dependencies and the softare and run ModulOmics with the default parameters.
 
 
 For more details on the input and output structures of ModulOmics, please see the pdf manual.

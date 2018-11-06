@@ -16,7 +16,7 @@ The software requires an active ```cplex``` (IBM CPLEX Optimizer) instance insta
 
 ## Static data
 The static data used in the MopdulOmics paper is available in the webservice link: (http://anat.cs.tau.ac.il/ModulOmicsServer/) and include:
-1. Transcription factors to their substrates mapping as derived from TRRUST database (Han et. al. Scientific Reports, 2015).
+1. Regulatory connections, based here on the TRRUST database (Han et. al. Scientific Reports, 2015).
 2. Shortest paths as computed on top of the Hippie protein-protein interaction network (Schaefer et. al. PLoS ONE, 2012).
 The dynamic portion of the data used in the ModulOmics paper, namely the genetic alterations and the gene expression per patient, is available in TCGA (https://cancergenome.nih.gov/).
 

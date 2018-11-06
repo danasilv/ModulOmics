@@ -15,7 +15,7 @@ To install and run via snakefile please download the directory to your computer,
 The software requires an active ```cplex``` (IBM CPLEX Optimizer) instance installed, and the snakefile requires requires Python 3.5+ with snakemake installed (https://snakemake.readthedocs.io/en/stable/getting_started/installation.html). This will both install dependencies and the softare and run ModulOmics with the default parameters.
 
 ## Static data
-The static data used in the MopdulOmics paper is available in the webservice link: (http://anat.cs.tau.ac.il/ModulOmicsServer/) and include:
+The static data used in the MopdulOmics paper is available in the webserver link: (http://anat.cs.tau.ac.il/ModulOmicsServer/) and include:
 1. Regulatory connections, based here on the TRRUST database (Han et. al. Scientific Reports, 2015).
 2. Shortest paths as computed on top of the Hippie protein-protein interaction network (Schaefer et. al. PLoS ONE, 2012).
 The dynamic portion of the data used in the ModulOmics paper, namely the genetic alterations and the gene expression per patient, is available in TCGA (https://cancergenome.nih.gov/).
